@@ -1,0 +1,107 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+}
+/* 
+Палитра цветов:
+- фон #e5e5e5;
+- вторичный фон #F5F4FA;
+- фон подвал #2F303A;
+- заголовок #FFFFFF;
+- текст #757575; #212121
+- логотип #2196F3; #000000;
+
+*/
+
+/* Body */
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+}
+
+.page {
+  background color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+/* Шапка сторінки */
+.header {
+  background-color: #ffffff;
+  color: var(--title-text-color)
+}
+.logo {
+  color: #2196f3;
+}
+.logo-style {
+  color: black;
+}
+.navigation {
+
+}
+.navigation .link {
+  color: var(--title-text-color)
+}
+.navigation .link:hover,
+.navigation .link:focus {
+  color: #2196f3;
+}
+
+.contacts {
+  margin-left: 1080px;
+}
+
+.contacts .link {
+  color:var(--primary-text-color)
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #2196f3;
+}
+/* Главный блок */
+.mine .title {
+  color: #ffffff;
+}
+/* Особенности */
+.benefits .title {
+  color: var(--title-text-color)
+}
+
+/* Чем мы занимаемся */
+.activity .title {
+  color:var(--title-text-color)
+}
+
+/* Наша команда */
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  color:var(--title-text-color)
+}
+.team .name {
+  color:var(--title-text-color)
+}
+
+/* Подвал */
+.footer {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.footer-content {
+  margin-left: 215px;
+}
+.footer-logo {
+  color: #2196f3;
+}
+.text-logo {
+  color: #ffffff;
+}
+
+.footer-contacts {
+  color:var(--primary-text-color)
+}
