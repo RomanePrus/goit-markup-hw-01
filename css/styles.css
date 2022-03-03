@@ -27,21 +27,44 @@ a {
 .page {
   background color: #ffffff;
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;  
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+letter-spacing: 0.03em;
 }
 
 /* Шапка сторінки */
-.header {
+.header{
   background-color: #ffffff;
-  color: var(--title-text-color)
+  color: var(--title-text-color);
+  width: 1600px;
+  height: 80px;
 }
-.logo {
+.header .logo {
   color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  padding-left: 215px;
+
+
 }
 .logo-style {
   color: black;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
-.navigation {
-
+.navigation{
+  font-family: Roboto,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .navigation .link {
   color: var(--title-text-color)
@@ -52,28 +75,60 @@ a {
 }
 
 .contacts {
-  margin-left: 1080px;
+  color: var(--primary-text-color);
 }
-
-.contacts .link {
-  color:var(--primary-text-color)
-}
-.contacts .link:hover,
-.contacts .link:focus {
+.contacts:hover,
+.contacts:focus 
+{
   color: #2196f3;
 }
+
 /* Главный блок */
-.mine .title {
+.mine .title{
   color: #ffffff;
+  font-family: Roboto,sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
+.button{
+  color: #ffffff;
+  background-color: #2196f3;
+  font-family: Roboto,sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
 /* Особенности */
 .benefits .title {
-  color: var(--title-text-color)
+  color: var(--title-text-color);
+  font-family: roboto, sans-serif;
 }
 
 /* Чем мы занимаемся */
 .activity .title {
-  color:var(--title-text-color)
+  color:var(--title-text-color);
+  font-family: Roboto,sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.img{
+  margin-left: 230px;
+
 }
 
 /* Наша команда */
@@ -81,27 +136,46 @@ a {
   background-color: #f5f4fa;
 }
 .team-title {
-  color:var(--title-text-color)
+  color:var(--title-text-color);
+  font-family: Roboto,sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team .name {
-  color:var(--title-text-color)
+  color:var(--title-text-color);
+  font-family: Roboto,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
 }
 
 /* Подвал */
 .footer {
-  color: #ffffff;
-  background-color: #2f303a;
-}
-.footer-content {
-  margin-left: 215px;
-}
-.footer-logo {
   color: #2196f3;
+  background-color: #2f303a;
+  font-family: Raleway,sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  padding-left: 215px;
 }
-.text-logo {
-  color: #ffffff;
+.footer .logo{
+  color:#f5f4fa
 }
-
-.footer-contacts {
-  color:var(--primary-text-color)
+ .address .link{
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
